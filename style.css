@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: #c5c5c5;
+    padding-top: 10px;
+}
+.navbar__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    list-style: none; 
+}
+.glopus{
+    width: 20px;
+    height: 20px;
+    background: url(img/icons8-search-50.png) no-repeat center/cover;
+}
+.navbar h2{
+    color: #3160CB;
+    font-size: 18px;
+}
+.navbar input{
+    width: 220px;
+    height: 50px;
+    padding: 20px;
+    color: #000000;
+    border-radius: 60px;
+}
+.title{
+    display: block;
+}
+.tel{
+    display: block;
+}
+.taytl{
+    margin-left: 7px;
+}
+.ikonkalar{
+    display: block;
+    display: flex;
+    gap: 30px;
+}
+i{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.fa-facebook{
+    color: blue;
+}
+.uz__avto{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    border: 5px solid #F9F9F9;
+}
+.avto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 14px;
+}
+.UzAvto{
+    width: 120px;
+    height: 55px;
+    margin-top: 10px;
+    background: url(https://uzautomotors.com/chevro/images/motors-logo.jpg) no-repeat center/cover;
+    font-size: 20px;
+}
+.avto li:hover{
+    color: #220aff;
+}
+.mashina{
+    width: 100%;
+}
+.songgi{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wrapper{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 370px;
+    height: 500px;
+    border: 0.2px solid #b3a0a0;
+}
+.kubik{
+    width: 367.5px;
+    height: 250px;
+    background: url(./img/7482a267c480e0124b665f533075c25e.png) no-repeat center/cover;
+}
+.i__teg{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.texs__h3{
+    padding-left: 20px;
+}
+.texs__h3:hover{
+    color: dodgerblue;
+}
+.texs__p{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.uzavto{
+    width: 367.5px;
+    height: 250px;
+    background: url(./img/8aa658a054b9a119191608485728d100.png) no-repeat center/cover;
+}
+.ecnocus{
+    width: 367.5px;
+    height: 250px;
+    background: url(./img/winter-malibu.jpg) no-repeat center/cover;
+}
+.titel__button{
+    width: 150px;
+    height: 35px;
+    background: #3160CB;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+    margin-left: 44%;
+    margin-top: 150px;
+}
+.titel__button:hover{
+    background: #220aff;
+    cursor: pointer;
+}
+.gilavnik{
+    margin-top: 100px;
+    width: 100%;
+}
+.media{
+    text-align: center;
+    margin-top: 100px;
+}
+.video__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}   
+.photo{
+    width: 367px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(https://uzautomotors.com/documents/media/play.jpg) no-repeat center/cover;
+}
+.avtomobil__p{
+    margin-top: 60%;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.dunyo__p{
+    margin-top: 50%;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.uzavto__p{
+    margin-top: 55%;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.barcha__button{
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    border: 1px solid #b3a0a0;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.banner{
+    display: flex;
+    padding: 30px 10%;
+    gap: 40px;
+}
+.banner__text,
+.banner__image{
+    width: 100%;
+}
+.banner__image img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.yakuniy{
+    width: 100%;
+    height: 400px;
+    background: #2e2b2b;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.tittel{
+    margin-top: 70px;
+    color: #ffffff;
+    line-height: 3;
+}
+.malumot{
+    width: 100%;
+    height: 100px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.logo{
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+
